@@ -3,13 +3,13 @@
 
 Steps in the Analysis:
 
-Top 15 Most Frequent Words (Count Vectorizer): Utilizing a count vectorizer along with text preprocessing techniques to identify the 15 most frequently occurring words in the text column.
+1) Top 15 Most Frequent Words (Count Vectorizer): Utilizing a count vectorizer along with text preprocessing techniques to identify the 15 most frequently occurring words in the text column.
 
-Top 50 Most Frequent Words (TF-IDF Model): Constructing a TF-IDF model to determine the top 50 most frequent words and comparing these results with the count vectorizer.
+2) Top 50 Most Frequent Words (TF-IDF Model): Constructing a TF-IDF model to determine the top 50 most frequent words and comparing these results with the count vectorizer.
 
-Word Embedding Models: Training and creating Word2Vec, GloVe, and FastText word embedding models on the provided Twitter dataset.
+3) Word Embedding Models: Training and creating Word2Vec, GloVe, and FastText word embedding models on the provided Twitter dataset.
 
-Comparison of Similar Words: Comparing words similar to the top 15 most frequent words identified in step 1 using the word embedding models (Word2Vec, GloVe, FastText).
+4) Comparison of Similar Words: Comparing words similar to the top 15 most frequent words identified in step 1 using the word embedding models (Word2Vec, GloVe, FastText).
 
 Analysis from Three Perspectives:
 
